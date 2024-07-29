@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 25%;
+}
+tr,td {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+}
+table tr:nth-child(odd) td:nth-child(even) {
+    background: black;
+  }
+table tr:nth-child(even) td:nth-child(odd) {
+    background: black;
+}
